@@ -25,7 +25,7 @@ func ConnectDatabase() *gorm.DB {
 	dbName := os.Getenv("DB_NAME")
 
 	// สร้าง DSN
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
+	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Asia%%2FBangkok",
 		dbUser, dbPass, dbHost, dbPort, dbName)
 
 	// เปิดการเชื่อมต่อฐานข้อมูล
