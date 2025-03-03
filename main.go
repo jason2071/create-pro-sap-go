@@ -1,9 +1,10 @@
 package main
 
 import (
-	"create-pro-sap-go/database"
-	"create-pro-sap-go/models"
 	"fmt"
+
+	"github.com/jason2071/create-pro-sap-go/database"
+	"github.com/jason2071/create-pro-sap-go/models"
 )
 
 func main() {
